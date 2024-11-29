@@ -20,28 +20,22 @@ Start Data Analysis는 데이터 분석을 처음 배우는 학생을 위해 설
     - 데이터로부터 예측 모델을 구축하고 평가합니다.
 
 ## 프로젝트 구조
-beginner-data-analysis/ 
-├── README.md 
-├── notebooks/ 
-  │ 
-  ├── 1_data_loading_and_preprocessing.ipynb 
-  │ 
-  ├── 2_exploratory_data_analysis.ipynb 
-  │ 
-  ├── 3_feature_engineering.ipynb 
-  │ 
-  └── 4_machine_learning_modeling.ipynb 
-├── scripts/ 
-  │ 
-  ├── data_loading.py 
-  │ 
-  ├── eda.py 
-  │ 
-  ├── feature_engineering.py 
-  │ 
-  └── model_training.py 
-└── data/ 
-  └── sample_data.csv
+
+beginner-data-analysis/
+├── README.md                      # 프로젝트 설명 파일
+├── notebooks/                     # 단계별 학습용 Jupyter Notebook
+│   ├── 1_data_loading_and_preprocessing.ipynb   # 데이터 로딩 및 전처리
+│   ├── 2_exploratory_data_analysis.ipynb        # 탐색적 데이터 분석(EDA)
+│   ├── 3_feature_engineering.ipynb              # 피처 엔지니어링
+│   └── 4_machine_learning_modeling.ipynb        # 머신러닝 모델링
+├── scripts/                       # 재사용 가능한 Python 스크립트
+│   ├── data_loading.py            # 데이터 로딩 및 전처리 스크립트
+│   ├── eda.py                     # 탐색적 데이터 분석 스크립트
+│   ├── feature_engineering.py     # 피처 엔지니어링 스크립트
+│   └── model_training.py          # 머신러닝 모델 학습 및 평가 스크립트
+└── data/                          # 샘플 데이터 저장 폴더
+    └── sample_data.csv            # 예제 데이터셋
+
 
 ## 시작하기
 
