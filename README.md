@@ -15,7 +15,28 @@ Start Data Analysis는 데이터 분석에 입문하려는 초보자를 위해 �
 4. 머신러닝 모델링 - 간단한 머신러닝 모델을 구축하고 평가합니다.
 
 ## 프로젝트 구조
-beginner-data-analysis/ ├── README.md ├── notebooks/ │ ├── 1_data_loading_and_preprocessing.ipynb │ ├── 2_exploratory_data_analysis.ipynb │ ├── 3_feature_engineering.ipynb │ └── 4_machine_learning_modeling.ipynb ├── scripts/ │ ├── data_loading.py │ ├── eda.py │ ├── feature_engineering.py │ └── model_training.py └── data/ └── sample_data.csv
+beginner-data-analysis/ 
+├── README.md 
+  ├── notebooks/ 
+    │ 
+    ├── 1_data_loading_and_preprocessing.ipynb 
+    │ 
+    ├── 2_exploratory_data_analysis.ipynb 
+    │ 
+    ├── 3_feature_engineering.ipynb 
+    │ 
+    └── 4_machine_learning_modeling.ipynb 
+  ├── scripts/ 
+    │ 
+    ├── data_loading.py 
+    │ 
+    ├── eda.py 
+    │ 
+    ├── feature_engineering.py 
+    │ 
+    └── model_training.py 
+  └── data/ 
+    └── sample_data.csv
 
 ## 시작하기
 
