@@ -59,3 +59,18 @@ matplotlib: 데이터 시각화
 seaborn: 고급 시각화
 scikit-learn: 머신러닝 모델 구축 및 평가
 
+```
+
+## 기여 방법
+이 프로젝트는 누구나 기여할 수 있도록 열려 있습니다.
+1. 이 레포지토리를 포크하세요.
+2. 새로운 브랜치를 생성하세요.
+```bash
+git checkout -b [your-branch-name]
+```
+3. 변경사항을 커밋하고 푸시하세요.
+```bash
+git commit -m "Add your feature decsription"
+git push origin [your-branch-name]
+```
+4. Pull Request를 열어주세요.
